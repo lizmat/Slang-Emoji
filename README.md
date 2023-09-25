@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/lizmat/Slang-Subscripts/workflows/test/badge.svg)](https://github.com/lizmat/Slang-Subscripts/actions)
+[![Actions Status](https://github.com/lizmat/Slang-Emoji/workflows/test/badge.svg)](https://github.com/lizmat/Slang-Emoji/actions)
 
 NAME
 ====
@@ -8,7 +8,7 @@ Slang::Emoji - allow single emojis as scalar variables
 SYNOPSIS
 ========
 
-```perl6
+```raku
   use Slang::Emoji;
 
   my 👍 = 42; say 👍;  # 42
@@ -17,7 +17,12 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-Slang::Emoji modifies the Raku grammar to make it possible to use simple emojis as scalar variables.
+Slang::Emoji modifies the Raku grammar to make it possible to use simple emojis (`.chars == 1`) as scalar variables.
+
+REQUIRES RECENT RAKUDO
+======================
+
+This module requires the 2023.10 release of the Rakudo compiler, or any version of Rakudo that was committed **after** the initial release of this module.
 
 AUTHOR
 ======

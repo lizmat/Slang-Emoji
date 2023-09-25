@@ -13,7 +13,7 @@
   "name": "Slang::Emoji",
   "perl": "6.c",
   "provides": {
-     "Slang::Emoji": "lib/Slang/Emoji.rakumod"
+    "Slang::Emoji": "lib/Slang/Emoji.rakumod"
   },
   "resources": [
   ],

@@ -25,6 +25,12 @@ Slang::Emoji - allow single emojis as scalar variables
 Slang::Emoji modifies the Raku grammar to make it possible to use
 simple emojis (C<.chars == 1>) as scalar variables.
 
+=head1 REQUIRES RECENT RAKUDO
+
+This module requires the 2023.10 release of the Rakudo compiler, or
+any version of Rakudo that was committed B<after> the initial release
+of this module.
+
 =head1 AUTHOR
 
 Elizabeth Mattijsen <liz@raku.rocks>
