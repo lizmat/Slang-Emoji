@@ -1,6 +1,8 @@
 Revision history for Slang::Emoji
 
 {{$NEXT}}
+
+0.0.2  2025-01-15T12:06:42+01:00
     - Up dependency on Slangify
     - Add CI badge for each OS
     - Update copyright year
