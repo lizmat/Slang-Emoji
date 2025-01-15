@@ -13,4 +13,4 @@ is @a[👍], 42, 'can we use it as an index';
 my %h = 👍 => 666;
 is %h{👍}, 666, 'can we use it as a key';
 
-# vim: ft=perl6 expandtab sw=4
+# vim: expandtab sw=4

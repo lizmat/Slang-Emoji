@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/lizmat/Slang-Emoji/workflows/test/badge.svg)](https://github.com/lizmat/Slang-Emoji/actions)
+[![Actions Status](https://github.com/lizmat/Slang-Emoji/actions/workflows/linux.yml/badge.svg)](https://github.com/lizmat/Slang-Emoji/actions) [![Actions Status](https://github.com/lizmat/Slang-Emoji/actions/workflows/macos.yml/badge.svg)](https://github.com/lizmat/Slang-Emoji/actions) [![Actions Status](https://github.com/lizmat/Slang-Emoji/actions/workflows/windows.yml/badge.svg)](https://github.com/lizmat/Slang-Emoji/actions)
 
 NAME
 ====
@@ -9,9 +9,10 @@ SYNOPSIS
 ========
 
 ```raku
-  use Slang::Emoji;
+use Slang::Emoji;
 
-  my 👍 = 42; say 👍;  # 42
+my 👍 = 42;
+say 👍;  # 42
 ```
 
 DESCRIPTION
@@ -19,8 +20,8 @@ DESCRIPTION
 
 Slang::Emoji modifies the Raku grammar to make it possible to use simple emojis (`.chars == 1`) as scalar variables.
 
-REQUIRES RECENT RAKUDO
-======================
+PREREQUISITES
+=============
 
 This module requires the 2023.10 release of the Rakudo compiler, or any version of Rakudo that was committed **after** the initial release of this module.
 
@@ -36,7 +37,7 @@ If you like this module, or what I’m doing more generally, committing to a [sm
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2023 Elizabeth Mattijsen
+Copyright 2023, 2025 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
